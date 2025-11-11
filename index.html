@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>LucyCool</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 0; color: #1f2937; }
@@ -9,6 +10,9 @@
     main { padding: 40px 24px; max-width: 960px; margin: 0 auto; }
     footer { background: #111827; color: white; padding: 32px 24px; }
     footer a { color: #fcd34d; text-decoration: none; }
+    ul.links { padding-left: 18px; }
+    ul.links li { margin: 6px 0; }
+    .muted { color:#6b7280; }
   </style>
 </head>
 <body>
@@ -16,15 +20,27 @@
     <h1>LucyCool</h1>
     <p>Suite de productivité pour créateurs et agences.</p>
   </header>
+
   <main>
     <h2>À propos</h2>
     <p>LucyCool centralise la planification, la publication et l’analyse sur YouTube, TikTok et Instagram.</p>
+
+    <h2 id="docs">Documents légaux & techniques</h2>
+    <p class="muted">Consultez les informations officielles concernant l’utilisation du service et la protection des données.</p>
+    <ul class="links" aria-labelledby="docs">
+      <li><a href="./docs/politique-confidentialite.html">Politique de confidentialité (RGPD)</a></li>
+      <li><a href="./docs/conditions-utilisation.html">Conditions d’utilisation</a></li>
+      <li><a href="./docs/fonctionnement-perimetre.html">Fonctionnement & périmètre</a></li>
+      <li><a href="./suppression-donnees.html">Suppression des données</a></li>
+    </ul>
   </main>
+
   <footer>
-    <p>© 2025 LucyCool – Siège social : Strasbourg, France.</p>
+    <p>© 2025 LucyCool — Édité par Agency-Ai. Siège social : Strasbourg, France.</p>
     <p>
-      <a href="./Confidentialités">Politique de confidentialité</a> |
-      <a href="./Conditions%20Générales">Conditions générales</a> |
+      <a href="./docs/politique-confidentialite.html">Politique de confidentialité</a> |
+      <a href="./docs/conditions-utilisation.html">Conditions d’utilisation</a> |
+      <a href="./docs/fonctionnement-perimetre.html">Fonctionnement & périmètre</a> |
       <a href="./suppression-donnees.html">Suppression des données</a>
     </p>
     <p>Contact : <a href="mailto:alsacedevmkt@gmail.com">alsacedevmkt@gmail.com</a></p>
